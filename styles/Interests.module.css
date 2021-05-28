@@ -1,0 +1,27 @@
+.icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    transition: 200ms all;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.interestText {
+    width: 100px;
+}
+
+.icon:active {
+    transform: scale(0, 0);
+}
+
+.listWrapper {
+    height: 500px;
+    padding-top: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.listWrapper::-webkit-scrollbar {
+    display: none;
+}

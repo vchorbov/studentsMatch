@@ -1,0 +1,137 @@
+.headerOfChts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 30px;
+}
+
+.titleChats {
+    width: fit-content;
+    font-weight: 500;
+    font-size: 37px;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-left: 2px;
+}
+
+.addNewChatLink {
+    position: absolute;
+    top: 40px;
+    left: 197px;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    color: #0B5ED7;
+}
+
+.addNewChatLink:hover {
+    cursor: pointer;
+}
+
+.popUpMessage {
+    background-color: #C6C9CF;
+    position: relative;
+    padding: 20px;
+}
+
+.popUpTitle {
+    left: 12px;
+}
+
+.closePopUp {
+    position: absolute;
+    left: 334px;
+    font-size: 26px;
+    top: 21px;
+}
+
+.closePopUp:hover {
+    color: white;
+}
+
+
+.singleChatOptions {
+
+}
+
+.foundChat {
+    padding: 8px 0px 8px 0px;
+    position: relative;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.foundChat:hover {
+   /* background-color: yellowgreen;*/
+    color: white;
+}
+
+.singleChatOption {
+    padding: 8px 0px 8px 0px;
+    position: relative;
+    cursor: pointer;
+}
+
+.singleChatOption:hover {
+    /*background-color: #CEDFF7;*/
+    background-color: #0B5ED7;
+    color: white;
+}
+
+.arrowToChat {
+    position: absolute;
+    left: 21rem;
+    top: 28px;
+}
+
+.arrowToChat:hover {
+    /*color: #0B5ED7;*/
+    font-size: 23px;
+}
+
+.chatUserName {
+    position: absolute;
+    left: 93px;
+    top: 20px;
+}
+
+.newMessage {
+    position: absolute;
+    left: 258px;
+    top: 49px;
+    font-size: small;
+}
+
+.howManyParticipants {
+    position: absolute;
+    left: 287px;
+    top: 49px;
+    font-size: small;
+}
+
+.lastMessage {
+    position: absolute;
+    top: 50px;
+    left: 95px;
+    font-size: small;
+
+}
+
+.chatProfilePic {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.linkToGroupchat {
+    color: black;
+    text-decoration: none;
+}
+
+.linkToGroupchat:hover {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}

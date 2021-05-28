@@ -1,0 +1,55 @@
+.picture {
+    width: 100%;
+    object-fit: cover;
+}
+
+.contentWrapper {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    height: 710px;
+}
+
+.contentWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.phone {
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+    color: #2a2a2a;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.age {
+    font-size: 30px;
+    align-self: end;
+}
+
+.blockBtn {
+    margin: 30px 0;
+    width: 250px;
+}
+
+.interestsList {
+    columns: 2;
+}
+
+.name {
+    margin: 20px 0 0 0;
+}
+
+.chat {
+    font-size: 35px;
+    cursor: pointer;
+    color: #a0a0a0;
+    margin-top: 45px;
+    margin-right: 25px;
+}
+
+.chat:hover {
+    color: #666666;
+}

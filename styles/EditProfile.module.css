@@ -1,0 +1,14 @@
+.profilePicture {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    transition: all 75ms;
+}
+
+.profilePicture:hover {
+    filter: brightness(50%);
+}
+
+.h1 {
+    color: green;
+}

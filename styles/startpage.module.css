@@ -1,0 +1,49 @@
+.picture {
+    position: absolute;
+    width: 333px;
+    height: 333px;
+    top: 25%;
+    left: 7%;
+}
+
+.header {
+    position: relative;
+    height: 100px;
+    background-color: var(--bs-blue);
+  }
+  
+  .h1 {
+    position: absolute;
+    top: 25%;
+  }
+  
+  .header h1 {
+    color: white;
+  }
+
+  .vert_center1 {
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .vert_center2 {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .vert_center3 {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }

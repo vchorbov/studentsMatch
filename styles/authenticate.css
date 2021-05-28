@@ -1,0 +1,58 @@
+.inputs {
+    margin-bottom: 10px;
+}
+
+.backButton {
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 70px;
+    color: #a0a0a0;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.backButton:hover {
+    text-decoration:none;
+    color: #666666;
+}
+
+.signin.field {
+    text-align: center;
+    position:absolute;
+    bottom:200px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    width: 250px;
+}
+.buttonHeader {
+    text-align: center;
+}
+
+.authenticate {
+    position:absolute;
+    bottom:100px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    height: 55px;
+    width: 160px;
+}
+
+.signinHeader {
+    text-align: center;
+    margin-top: 30px;
+    color: #434343;
+}
+.forgotten {
+    text-decoration:none;
+    font-weight: 600;
+    color: #a0a0a0;
+}
+.forgotten:hover {
+    text-decoration:none;
+    font-weight: 600;
+    color: #666666;
+}

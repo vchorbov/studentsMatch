@@ -1,0 +1,27 @@
+.letter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 256px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.securecode {
+    position:absolute;
+    bottom:210px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+
+    vertical-align: middle;
+    height: 55px;
+    width: 280px;
+    text-align: center;
+}
+.notice {
+    text-align: center;
+    color: #afafaf;
+    font-size: 14px;
+}

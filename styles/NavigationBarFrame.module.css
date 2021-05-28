@@ -1,0 +1,25 @@
+.pageIconWrapper {
+    color: gray;
+    transition: all 100ms;
+    font-size: 35px;
+    border-right: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.pageIconWrapper:hover {
+    color: #505050;
+}
+
+.active {
+    color: var(--bs-blue)
+}
+
+.active:hover {
+    color: #094095;
+}
